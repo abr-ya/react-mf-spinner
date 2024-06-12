@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "./index.scss";
-import Header from "./Header";
-import Footer from "./components/Footer";
+import Header from "host/Header";
+import Footer from "host/Footer";
 
 const App = () => (
-  <div className="text-3xl mx-auto max-w-6xl">
+  <div className="text-3xl mx-auto max-w-6xl ">
     <Header />
-    <div>Name: host</div>
+    <div>Name: product</div>
     <div>Framework: react</div>
     <div>Language: TypeScript</div>
     <div>CSS: Tailwind</div>
