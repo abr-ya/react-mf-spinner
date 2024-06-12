@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import "./index.scss";
 import Header from "./Header";
-import Footer from "./components/Footer";
+import { Footer } from "./components";
 
 const App = () => (
   <div className="text-3xl mx-auto max-w-6xl">
